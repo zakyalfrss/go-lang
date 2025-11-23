@@ -11,5 +11,5 @@ func main()  {
 		varB = 3
 	)
 	fmt.Println(varA, varB)
-	
+	fmt.Println(pi, a)
 }
