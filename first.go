@@ -2,14 +2,15 @@ package main
 
 import "fmt"
 
-func main()  {
 
-	const pi float64 = 3.14159265359
-	var a int =4
-	var (
-		varA = 2
-		varB = 3
-	)
-	fmt.Println(varA, varB)
-	fmt.Println(pi, a)
+func main()  {
+	var Nums[5] int
+		Nums[0] = 0
+		Nums[1] = 45
+		Nums[2] = 65
+		Nums[3] = 80
+		Nums[4] = 90
+	for i := 0; i < len(nums); i++ {
+		fmt.Println(Nums[i])
+	}
 }
